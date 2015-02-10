@@ -2,7 +2,48 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
-    title Prototype
+    title Calculator
+    link(rel='stylesheet', href='/style.css')
   body
-    h1 Hello, World
-    script(src='/vendor/jquery/dist/jquery.js')
+    h1 Basic Calculor
+      div#calculator
+        div.top
+          span.clear Clear
+          div.screen
+        div.keys
+          span √
+          span.operator +
+      
+          span.operator -
+          span.operator /
+          span 7
+          span 8
+          span 9
+          span 4
+          span 5
+          span 6
+          span 1
+          span 2
+          span 3
+          span 0
+          span .
+
+          span.equalTo =
+
+
+    script(src='/main.js')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  script(src='/vendor/jquery/dist/jquery.js')
