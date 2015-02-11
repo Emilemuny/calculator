@@ -1,0 +1,4 @@
+#calculator {border: 2px solid; width: 130px;}
+#input {border: 1px solid; height: 20px; width: 114px; margin: 5px; padding: 2px; text-align: right;}
+#buttons {margin: 5px;}
+.button {width: 30px; height: 30px;}
